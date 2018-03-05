@@ -1,0 +1,25 @@
+QMAKE_CXX.INCDIRS = \
+    /opt/rh/devtoolset-6/root/usr/include/c++/6.3.1 \
+    /opt/rh/devtoolset-6/root/usr/include/c++/6.3.1/x86_64-redhat-linux \
+    /opt/rh/devtoolset-6/root/usr/include/c++/6.3.1/backward \
+    /opt/rh/devtoolset-6/root/usr/lib/gcc/x86_64-redhat-linux/6.3.1/include \
+    /usr/local/include \
+    /opt/rh/devtoolset-6/root/usr/include \
+    /usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/rh/devtoolset-6/root/usr/lib/gcc/x86_64-redhat-linux/6.3.1 \
+    /opt/rh/devtoolset-6/root/usr/lib64 \
+    /lib64 \
+    /usr/lib64 \
+    /opt/rh/devtoolset-6/root/usr/lib \
+    /lib \
+    /usr/lib
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 6
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 1
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION

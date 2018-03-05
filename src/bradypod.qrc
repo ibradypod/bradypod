@@ -1,0 +1,5 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>bradypod.png</file>
+    </qresource>
+</RCC>
